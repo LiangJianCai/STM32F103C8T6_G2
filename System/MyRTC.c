@@ -3,7 +3,7 @@
 #include "error_handler.h"
 #include "MyRTC.h"
 
-uint16_t MyRTC_Time[] = {2025, 9, 1, 23, 59, 55};	//定义全局的时间数组，数组内容分别为年、月、日、时、分、秒
+int16_t MyRTC_Time[] = {2025, 9, 1, 23, 59, 55};	//定义全局的时间数组，数组内容分别为年、月、日、时、分、秒
 
 
 /**
@@ -112,15 +112,15 @@ ErrorCode_t MyRTC_SetTime(void)
 		REPORT_ERROR(ERROR_OUT_OF_RANGE, ERROR_LEVEL_ERROR, MODULE_ID_RTC, "Day out of range");
 		return ERROR_OUT_OF_RANGE;
 	}
-	if (MyRTC_Time[3] > 23) {
+	if (MyRTC_Time[3] > 23 || MyRTC_Time[3]<0 ) {
 		REPORT_ERROR(ERROR_OUT_OF_RANGE, ERROR_LEVEL_ERROR, MODULE_ID_RTC, "Hour out of range");
 		return ERROR_OUT_OF_RANGE;
 	}
-	if (MyRTC_Time[4] > 59) {
+	if (MyRTC_Time[4] > 59 || MyRTC_Time[4]<0) {
 		REPORT_ERROR(ERROR_OUT_OF_RANGE, ERROR_LEVEL_ERROR, MODULE_ID_RTC, "Minute out of range");
 		return ERROR_OUT_OF_RANGE;
 	}
-	if (MyRTC_Time[5] > 59) {
+	if (MyRTC_Time[5] > 59 || MyRTC_Time[5] < 0) {
 		REPORT_ERROR(ERROR_OUT_OF_RANGE, ERROR_LEVEL_ERROR, MODULE_ID_RTC, "Second out of range");
 		return ERROR_OUT_OF_RANGE;
 	}

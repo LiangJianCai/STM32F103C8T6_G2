@@ -43,8 +43,6 @@ int main(void)
 		menu_flag=UI_First_Page();
 		if(menu_flag==1){UI_Sliding_Menu();} //≤Àµ•
 		else if(menu_flag==2){UI_SettingPage();}  //…Ë÷√
-		DinoGame_Animation(); 
-	
 	}
 
 }

@@ -778,7 +778,7 @@ I (.\Library\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Library\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Library\misc.h)(0x4D783BB4)
 F (.\System\Delay.h)(0x68C6D232)()
-F (.\System\MyRTC.c)(0x68C6C20A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware --no-multibyte-chars-I D:\lenovo\Desktop\STM32F103_G2\RTE-I D:\EmbededSoft\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-I D:\EmbededSoft\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\myrtc.o --omf_browse .\objects\myrtc.crf --depend .\objects\myrtc.d)
+F (.\System\MyRTC.c)(0x68CF6E0A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware --no-multibyte-chars-I D:\lenovo\Desktop\STM32F103_G2\RTE-I D:\EmbededSoft\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-I D:\EmbededSoft\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\myrtc.o --omf_browse .\objects\myrtc.crf --depend .\objects\myrtc.d)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
 I (D:\EmbededSoft\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
@@ -816,8 +816,8 @@ I (.\Hardware\OLED_Data.h)(0x68C6A9AD)
 I (System\Timer.h)(0x61F11D95)
 I (D:\EmbededSoft\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (D:\EmbededSoft\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
-I (System\MyRTC.h)(0x68C6C07E)
-F (.\System\MyRTC.h)(0x68C6C07E)()
+I (System\MyRTC.h)(0x68CF6E0A)
+F (.\System\MyRTC.h)(0x68CF6E0A)()
 F (.\System\sysconfig.h)(0x68C6C07D)()
 F (.\System\Timer.c)(0x68BA92F6)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware --no-multibyte-chars-I D:\lenovo\Desktop\STM32F103_G2\RTE-I D:\EmbededSoft\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-I D:\EmbededSoft\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
@@ -928,13 +928,13 @@ F (.\Hardware\OLED_Data.c)(0x68C6AAA5)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=in
 I (Hardware\OLED_Data.h)(0x68C6A9AD)
 I (D:\EmbededSoft\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
 F (.\Hardware\OLED_Data.h)(0x68C6A9AD)()
-F (.\Hardware\menu.c)(0x68C6B008)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware --no-multibyte-chars-I D:\lenovo\Desktop\STM32F103_G2\RTE-I D:\EmbededSoft\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-I D:\EmbededSoft\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\menu.o --omf_browse .\objects\menu.crf --depend .\objects\menu.d)
+F (.\Hardware\menu.c)(0x68CF66BE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware --no-multibyte-chars-I D:\lenovo\Desktop\STM32F103_G2\RTE-I D:\EmbededSoft\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-I D:\EmbededSoft\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\menu.o --omf_browse .\objects\menu.crf --depend .\objects\menu.d)
 I (Hardware\menu.h)(0x68C630CC)
 I (Hardware\modelconfig.h)(0x68C6C639)
 I (D:\EmbededSoft\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
 I (Hardware\OLED.h)(0x68C4122F)
 I (Hardware\OLED_Data.h)(0x68C6A9AD)
-I (.\System\MyRTC.h)(0x68C6C07E)
+I (.\System\MyRTC.h)(0x68CF6E0A)
 I (.\System\sysconfig.h)(0x68C6C07D)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
@@ -984,7 +984,7 @@ I (D:\EmbededSoft\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
 I (Hardware\menu.h)(0x68C630CC)
 I (Hardware\OLED.h)(0x68C4122F)
 I (Hardware\OLED_Data.h)(0x68C6A9AD)
-I (.\System\MyRTC.h)(0x68C6C07E)
+I (.\System\MyRTC.h)(0x68CF6E0A)
 I (.\System\sysconfig.h)(0x68C6C07D)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
@@ -1089,14 +1089,14 @@ I (.\Library\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Library\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Library\misc.h)(0x4D783BB4)
 F (.\Hardware\LED.h)(0x615AC609)()
-F (.\Hardware\SetTime.c)(0x68C03C08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware --no-multibyte-chars-I D:\lenovo\Desktop\STM32F103_G2\RTE-I D:\EmbededSoft\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-I D:\EmbededSoft\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\settime.o --omf_browse .\objects\settime.crf --depend .\objects\settime.d)
+F (.\Hardware\SetTime.c)(0x68CF6E0A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware --no-multibyte-chars-I D:\lenovo\Desktop\STM32F103_G2\RTE-I D:\EmbededSoft\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-I D:\EmbededSoft\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\settime.o --omf_browse .\objects\settime.crf --depend .\objects\settime.d)
 I (Hardware\SetTime.h)(0x68C02DDA)
 I (Hardware\modelconfig.h)(0x68C6C639)
 I (D:\EmbededSoft\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
 I (Hardware\menu.h)(0x68C630CC)
 I (Hardware\OLED.h)(0x68C4122F)
 I (Hardware\OLED_Data.h)(0x68C6A9AD)
-I (.\System\MyRTC.h)(0x68C6C07E)
+I (.\System\MyRTC.h)(0x68CF6E0A)
 I (.\System\sysconfig.h)(0x68C6C07D)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
@@ -1210,7 +1210,7 @@ I (D:\EmbededSoft\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
 I (Hardware\menu.h)(0x68C630CC)
 I (Hardware\OLED.h)(0x68C4122F)
 I (Hardware\OLED_Data.h)(0x68C6A9AD)
-I (.\System\MyRTC.h)(0x68C6C07E)
+I (.\System\MyRTC.h)(0x68CF6E0A)
 I (.\System\sysconfig.h)(0x68C6C07D)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
@@ -1318,7 +1318,7 @@ I (Hardware\modelconfig.h)(0x68C6C639)
 I (Hardware\menu.h)(0x68C630CC)
 I (Hardware\OLED.h)(0x68C4122F)
 I (Hardware\OLED_Data.h)(0x68C6A9AD)
-I (.\System\MyRTC.h)(0x68C6C07E)
+I (.\System\MyRTC.h)(0x68CF6E0A)
 I (.\System\sysconfig.h)(0x68C6C07D)
 I (.\System\Delay.h)(0x68C6D232)
 I (.\System\Timer.h)(0x61F11D95)
@@ -1491,7 +1491,7 @@ I (D:\EmbededSoft\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
 I (.\Hardware\menu.h)(0x68C630CC)
 I (.\Hardware\OLED.h)(0x68C4122F)
 I (.\Hardware\OLED_Data.h)(0x68C6A9AD)
-I (.\System\MyRTC.h)(0x68C6C07E)
+I (.\System\MyRTC.h)(0x68CF6E0A)
 I (.\System\sysconfig.h)(0x68C6C07D)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
@@ -1569,7 +1569,7 @@ I (.\Hardware\menu.h)(0x68C630CC)
 I (.\Hardware\modelconfig.h)(0x68C6C639)
 I (.\Hardware\OLED.h)(0x68C4122F)
 I (.\Hardware\OLED_Data.h)(0x68C6A9AD)
-I (.\System\MyRTC.h)(0x68C6C07E)
+I (.\System\MyRTC.h)(0x68CF6E0A)
 I (.\System\sysconfig.h)(0x68C6C07D)
 I (.\System\Delay.h)(0x68C6D232)
 I (.\System\Timer.h)(0x61F11D95)
@@ -1590,7 +1590,7 @@ F (.\User\app_state.h)(0x68C6B7EE)()
 F (.\User\boardconfig.h)(0x68BA9405)()
 F (.\User\main_improved.c)(0x68C6D31D)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware --no-multibyte-chars-I D:\lenovo\Desktop\STM32F103_G2\RTE-I D:\EmbededSoft\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-I D:\EmbededSoft\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main_improved.o --omf_browse .\objects\main_improved.crf --depend .\objects\main_improved.d)
 F (.\User\model_test.h)(0x68B9B0C0)()
-F (.\User\main.c)(0x68C6D31D)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware --no-multibyte-chars-I D:\lenovo\Desktop\STM32F103_G2\RTE-I D:\EmbededSoft\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-I D:\EmbededSoft\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\User\main.c)(0x68CF6C0D)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware --no-multibyte-chars-I D:\lenovo\Desktop\STM32F103_G2\RTE-I D:\EmbededSoft\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-I D:\EmbededSoft\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\System\sysconfig.h)(0x68C6C07D)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
@@ -1630,7 +1630,7 @@ I (.\System\error_handler.h)(0x68C6C6D1)
 I (D:\EmbededSoft\keil5\ARM\ARMCC\include\time.h)(0x60252378)
 I (.\Hardware\modelconfig.h)(0x68C6C639)
 I (.\Hardware\menu.h)(0x68C630CC)
-I (.\System\MyRTC.h)(0x68C6C07E)
+I (.\System\MyRTC.h)(0x68CF6E0A)
 I (.\Hardware\Key.h)(0x68C6C58C)
 I (.\Hardware\LED.h)(0x615AC609)
 I (.\Hardware\SetTime.h)(0x68C02DDA)

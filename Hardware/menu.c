@@ -610,6 +610,7 @@ int Game(void)
 					case 2:
 							Dino_Game_Pos_Init();
 							DinoGame_Animation();	
+							game_flag_temp = 0;
 							break;
 					default:                 
 							break;

@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\Project.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\Project.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Sun Sep 14 22:37:30 2025
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Sun Sep 21 11:16:40 2025
 <BR><P>
 <H3>Maximum Stack Usage =        496 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -1140,7 +1140,7 @@ Global Symbols
 <P><STRONG><a name="[8]"></a>BusFault_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_it.o(i.BusFault_Handler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
-<P><STRONG><a name="[b7]"></a>Change_RTC_Time</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, settime.o(i.Change_RTC_Time))
+<P><STRONG><a name="[b7]"></a>Change_RTC_Time</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, settime.o(i.Change_RTC_Time))
 <BR><BR>[Stack]<UL><LI>Max Depth = 172<LI>Call Chain = Change_RTC_Time &rArr; MyRTC_SetTime &rArr; ErrorHandler_ReportError &rArr; MyRTC_ReadTime &rArr; localtime &rArr; _localtime_r &rArr; __aeabi_memclr4
 </UL>
 <BR>[Calls]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MyRTC_SetTime
@@ -1194,7 +1194,6 @@ Global Symbols
 <LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Show_Barrier
 </UL>
 <BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Game
-<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
 <P><STRONG><a name="[cd]"></a>Dino_Game_Pos_Init</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, dino.o(i.Dino_Game_Pos_Init))
@@ -1274,7 +1273,7 @@ Global Symbols
 <LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MyI2C_W_SCL
 </UL>
 
-<P><STRONG><a name="[cc]"></a>Game</STRONG> (Thumb, 192 bytes, Stack size 8 bytes, menu.o(i.Game))
+<P><STRONG><a name="[cc]"></a>Game</STRONG> (Thumb, 194 bytes, Stack size 8 bytes, menu.o(i.Game))
 <BR><BR>[Stack]<UL><LI>Max Depth = 264<LI>Call Chain = Game &rArr; DinoGame_Animation &rArr; Show_Dino &rArr; sin &rArr; __ieee754_rem_pio2 &rArr; __aeabi_dmul
 </UL>
 <BR>[Calls]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Key_GetNum
@@ -1610,7 +1609,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;menu_init
 </UL>
 
-<P><STRONG><a name="[cb]"></a>MyRTC_ReadTime</STRONG> (Thumb, 68 bytes, Stack size 56 bytes, myrtc.o(i.MyRTC_ReadTime))
+<P><STRONG><a name="[cb]"></a>MyRTC_ReadTime</STRONG> (Thumb, 80 bytes, Stack size 56 bytes, myrtc.o(i.MyRTC_ReadTime))
 <BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = MyRTC_ReadTime &rArr; localtime &rArr; _localtime_r &rArr; __aeabi_memclr4
 </UL>
 <BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTC_GetCounter
@@ -1621,7 +1620,7 @@ Global Symbols
 <LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ErrorHandler_ReportError
 </UL>
 
-<P><STRONG><a name="[b8]"></a>MyRTC_SetTime</STRONG> (Thumb, 266 bytes, Stack size 56 bytes, myrtc.o(i.MyRTC_SetTime))
+<P><STRONG><a name="[b8]"></a>MyRTC_SetTime</STRONG> (Thumb, 326 bytes, Stack size 56 bytes, myrtc.o(i.MyRTC_SetTime))
 <BR><BR>[Stack]<UL><LI>Max Depth = 156<LI>Call Chain = MyRTC_SetTime &rArr; ErrorHandler_ReportError &rArr; MyRTC_ReadTime &rArr; localtime &rArr; _localtime_r &rArr; __aeabi_memclr4
 </UL>
 <BR>[Calls]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTC_WaitForLastTask
@@ -2030,7 +2029,7 @@ Global Symbols
 <P><STRONG><a name="[a]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(i.SVC_Handler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
-<P><STRONG><a name="[124]"></a>SetDay</STRONG> (Thumb, 116 bytes, Stack size 8 bytes, settime.o(i.SetDay))
+<P><STRONG><a name="[124]"></a>SetDay</STRONG> (Thumb, 120 bytes, Stack size 8 bytes, settime.o(i.SetDay))
 <BR><BR>[Stack]<UL><LI>Max Depth = 464 + Unknown Stack Size
 <LI>Call Chain = SetDay &rArr; Show_SetTime_FirstUI &rArr; OLED_Printf &rArr; OLED_ShowString &rArr; OLED_ShowChar &rArr; OLED_ShowImage &rArr; OLED_ClearArea
 </UL>
@@ -2044,7 +2043,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTime
 </UL>
 
-<P><STRONG><a name="[126]"></a>SetHour</STRONG> (Thumb, 118 bytes, Stack size 8 bytes, settime.o(i.SetHour))
+<P><STRONG><a name="[126]"></a>SetHour</STRONG> (Thumb, 122 bytes, Stack size 8 bytes, settime.o(i.SetHour))
 <BR><BR>[Stack]<UL><LI>Max Depth = 464 + Unknown Stack Size
 <LI>Call Chain = SetHour &rArr; Show_SetTime_SecondUI &rArr; OLED_Printf &rArr; OLED_ShowString &rArr; OLED_ShowChar &rArr; OLED_ShowImage &rArr; OLED_ClearArea
 </UL>
@@ -2058,7 +2057,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTime
 </UL>
 
-<P><STRONG><a name="[128]"></a>SetMin</STRONG> (Thumb, 118 bytes, Stack size 8 bytes, settime.o(i.SetMin))
+<P><STRONG><a name="[128]"></a>SetMin</STRONG> (Thumb, 122 bytes, Stack size 8 bytes, settime.o(i.SetMin))
 <BR><BR>[Stack]<UL><LI>Max Depth = 464 + Unknown Stack Size
 <LI>Call Chain = SetMin &rArr; Show_SetTime_SecondUI &rArr; OLED_Printf &rArr; OLED_ShowString &rArr; OLED_ShowChar &rArr; OLED_ShowImage &rArr; OLED_ClearArea
 </UL>
@@ -2072,7 +2071,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTime
 </UL>
 
-<P><STRONG><a name="[129]"></a>SetMonth</STRONG> (Thumb, 118 bytes, Stack size 8 bytes, settime.o(i.SetMonth))
+<P><STRONG><a name="[129]"></a>SetMonth</STRONG> (Thumb, 122 bytes, Stack size 8 bytes, settime.o(i.SetMonth))
 <BR><BR>[Stack]<UL><LI>Max Depth = 464 + Unknown Stack Size
 <LI>Call Chain = SetMonth &rArr; Show_SetTime_FirstUI &rArr; OLED_Printf &rArr; OLED_ShowString &rArr; OLED_ShowChar &rArr; OLED_ShowImage &rArr; OLED_ClearArea
 </UL>
@@ -2086,7 +2085,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTime
 </UL>
 
-<P><STRONG><a name="[12a]"></a>SetSec</STRONG> (Thumb, 118 bytes, Stack size 8 bytes, settime.o(i.SetSec))
+<P><STRONG><a name="[12a]"></a>SetSec</STRONG> (Thumb, 122 bytes, Stack size 8 bytes, settime.o(i.SetSec))
 <BR><BR>[Stack]<UL><LI>Max Depth = 464 + Unknown Stack Size
 <LI>Call Chain = SetSec &rArr; Show_SetTime_SecondUI &rArr; OLED_Printf &rArr; OLED_ShowString &rArr; OLED_ShowChar &rArr; OLED_ShowImage &rArr; OLED_ClearArea
 </UL>
@@ -2203,7 +2202,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DinoGame_Animation
 </UL>
 
-<P><STRONG><a name="[125]"></a>Show_SetTime_FirstUI</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, settime.o(i.Show_SetTime_FirstUI))
+<P><STRONG><a name="[125]"></a>Show_SetTime_FirstUI</STRONG> (Thumb, 80 bytes, Stack size 8 bytes, settime.o(i.Show_SetTime_FirstUI))
 <BR><BR>[Stack]<UL><LI>Max Depth = 456 + Unknown Stack Size
 <LI>Call Chain = Show_SetTime_FirstUI &rArr; OLED_Printf &rArr; OLED_ShowString &rArr; OLED_ShowChar &rArr; OLED_ShowImage &rArr; OLED_ClearArea
 </UL>
@@ -2216,7 +2215,7 @@ Global Symbols
 <LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTime
 </UL>
 
-<P><STRONG><a name="[127]"></a>Show_SetTime_SecondUI</STRONG> (Thumb, 58 bytes, Stack size 8 bytes, settime.o(i.Show_SetTime_SecondUI))
+<P><STRONG><a name="[127]"></a>Show_SetTime_SecondUI</STRONG> (Thumb, 64 bytes, Stack size 8 bytes, settime.o(i.Show_SetTime_SecondUI))
 <BR><BR>[Stack]<UL><LI>Max Depth = 456 + Unknown Stack Size
 <LI>Call Chain = Show_SetTime_SecondUI &rArr; OLED_Printf &rArr; OLED_ShowString &rArr; OLED_ShowChar &rArr; OLED_ShowImage &rArr; OLED_ClearArea
 </UL>
@@ -2351,7 +2350,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[148]"></a>UI_Show_Clock</STRONG> (Thumb, 96 bytes, Stack size 16 bytes, menu.o(i.UI_Show_Clock))
+<P><STRONG><a name="[148]"></a>UI_Show_Clock</STRONG> (Thumb, 108 bytes, Stack size 16 bytes, menu.o(i.UI_Show_Clock))
 <BR><BR>[Stack]<UL><LI>Max Depth = 464 + Unknown Stack Size
 <LI>Call Chain = UI_Show_Clock &rArr; OLED_Printf &rArr; OLED_ShowString &rArr; OLED_ShowChar &rArr; OLED_ShowImage &rArr; OLED_ClearArea
 </UL>
@@ -2597,12 +2596,11 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DinoGame_Animation
 </UL>
 
-<P><STRONG><a name="[71]"></a>main</STRONG> (Thumb, 58 bytes, Stack size 0 bytes, main.o(i.main))
+<P><STRONG><a name="[71]"></a>main</STRONG> (Thumb, 54 bytes, Stack size 0 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 496 + Unknown Stack Size
 <LI>Call Chain = main &rArr; UI_Sliding_Menu &rArr; MPU6050 &rArr; UI_Show_MPU6050 &rArr; OLED_Printf &rArr; OLED_ShowString &rArr; OLED_ShowChar &rArr; OLED_ShowImage &rArr; OLED_ClearArea
 </UL>
-<BR>[Calls]<UL><LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DinoGame_Animation
-<LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;menu_init
+<BR>[Calls]<UL><LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;menu_init
 <LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UI_Sliding_Menu
 <LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UI_Show_Clock
 <LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UI_SettingPage

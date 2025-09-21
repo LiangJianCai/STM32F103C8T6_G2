@@ -5,7 +5,7 @@
 #include "stdint.h"
 #include "error_handler.h"
 
-extern uint16_t MyRTC_Time[];
+extern int16_t MyRTC_Time[];
 
 void MyRTC_Init(void);
 ErrorCode_t MyRTC_SetTime(void);
